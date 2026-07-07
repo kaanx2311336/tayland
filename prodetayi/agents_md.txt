@@ -1,0 +1,1 @@
+AGENTS.md, bu seyahat projesinin calisma kurallarini ozetler. Vanilla HTML/CSS/JS, public klasoru, component loader, prodetayi hafizasi ve yapilanlar log sistemi ana standart olarak kabul edilir.

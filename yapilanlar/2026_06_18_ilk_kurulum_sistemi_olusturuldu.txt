@@ -1,0 +1,18 @@
+2026-06-18 tarihinde bos proje kokunde ilk kurulum yapildi.
+
+Olusturulan temel yapilar:
+- AGENTS.md
+- guncelle.md
+- public/
+- public/components/
+- public/scripts/
+- public/styles/
+- prodetayi/
+- yapilanlar/
+- scripts/
+- codex_promptlari/
+
+State dosyasi:
+- codex_promptlari/prompt_arsivi_state.json
+
+Kurulum, kullanicinin global AGENTS kurallarindaki prodetayi ve yapilanlar sistemine uygun hazirlandi.

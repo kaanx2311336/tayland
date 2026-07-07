@@ -1,0 +1,1 @@
+public/components/header.html, proje markasini ve ana gezinmeyi icerir. Rota Paneli ve Gelecek Haritasi baglantilari component loader tarafindan sayfalara dahil edilir.

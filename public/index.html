@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tayland Vietnam Bali Aile Rotasi</title>
+    <meta name="description" content="7 Temmuz - 4 Eylul 2026 Tayland, Vietnam ve Bali aile seyahati kontrol paneli.">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="styles/style.css">
+  </head>
+  <body data-page="plan">
+    <div data-component="header"></div>
+
+    <main class="app-shell">
+      <section class="hero-panel" aria-labelledby="page-title">
+        <span class="eyebrow">BKK giris / BKK cikis aile seyahati</span>
+        <h1 id="page-title">Airbnb agirlikli, bebek dostu slow travel paneli</h1>
+        <p>Rota; Bangkok sonrasi Phuket, Samui/Phangan ve Chiang Mai sirasi ile guncellendi. Aylik 2.000-2.500 USD hedef icin Phuket kisa, Bali ise 7 gece tavan tutuldu.</p>
+        <div class="hero-actions">
+          <button class="icon-button primary-button" id="print-plan" type="button" title="Plani yazdir">
+            <i class="fa-solid fa-print" aria-hidden="true"></i>
+            Yazdir
+          </button>
+          <a class="icon-button" href="vision.html" title="Gelecek haritasini ac">
+            <i class="fa-solid fa-timeline" aria-hidden="true"></i>
+            Gelecek Haritasi
+          </a>
+        </div>
+      </section>
+
+      <section class="stats-grid" id="stats" aria-label="Rota ozeti"></section>
+
+      <section class="panel">
+        <div class="panel-header">
+          <div>
+            <span class="eyebrow">Kontrol paneli</span>
+            <h2>Uygulama adimlari</h2>
+          </div>
+          <div class="tabs" role="group" aria-label="Panel sekmeleri">
+            <button class="tab-button" type="button" data-tab="route" aria-pressed="true"><i class="fa-solid fa-route" aria-hidden="true"></i> Rota</button>
+            <button class="tab-button" type="button" data-tab="activities" aria-pressed="false"><i class="fa-solid fa-map-location-dot" aria-hidden="true"></i> Aktiviteler</button>
+            <button class="tab-button" type="button" data-tab="budget" aria-pressed="false"><i class="fa-solid fa-wallet" aria-hidden="true"></i> Butce</button>
+            <button class="tab-button" type="button" data-tab="docs" aria-pressed="false"><i class="fa-solid fa-passport" aria-hidden="true"></i> Evrak</button>
+            <button class="tab-button" type="button" data-tab="flights" aria-pressed="false"><i class="fa-solid fa-plane-departure" aria-hidden="true"></i> Ucuslar</button>
+            <button class="tab-button" type="button" data-tab="booking" aria-pressed="false"><i class="fa-solid fa-ticket" aria-hidden="true"></i> Rezervasyon</button>
+          </div>
+        </div>
+
+        <div data-panel="route">
+          <div class="filters" role="group" aria-label="Ulke filtresi">
+            <button class="filter-button" type="button" data-filter="all" aria-pressed="true">Tum rota</button>
+            <button class="filter-button" type="button" data-filter="Tayland" aria-pressed="false">Tayland</button>
+            <button class="filter-button" type="button" data-filter="Vietnam" aria-pressed="false">Vietnam</button>
+            <button class="filter-button" type="button" data-filter="Bali" aria-pressed="false">Bali</button>
+          </div>
+          <div class="timeline" id="timeline" aria-live="polite"></div>
+        </div>
+
+        <div data-panel="activities" hidden>
+          <p class="panel-note">Aktivite takvimi 1 gun gezi + 1 gun mola ritmine gore yazildi. Phi Phi gibi buyuk gunlerde bu kural esneyebilir; o zaman ayni haftadan baska bir aktivite cikarilir veya ertesi gun tam mola yapilir.</p>
+          <div class="activity-grid" id="activity-list"></div>
+          <div class="activity-section-title">
+            <span class="eyebrow">Esnek liste</span>
+            <h3>Guzel alternatifler ve degisim kurallari</h3>
+          </div>
+          <div class="activity-grid" id="activity-alternative-list"></div>
+        </div>
+
+        <div data-panel="budget" hidden>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Kategori</th>
+                  <th>Hesap</th>
+                  <th>Hedef aralik</th>
+                </tr>
+              </thead>
+              <tbody id="budget-rows"></tbody>
+            </table>
+          </div>
+        </div>
+
+        <div data-panel="docs" hidden>
+          <div class="progress" aria-live="polite">
+            <strong id="progress-label">0/0 tamam</strong>
+            <div class="progress-track" aria-hidden="true">
+              <div class="progress-fill" id="progress-bar"></div>
+            </div>
+          </div>
+          <div class="checklist" id="checklist"></div>
+        </div>
+
+        <div data-panel="flights" hidden>
+          <p class="panel-note">Ana bilet saatleri kullanicinin 29 Haziran 2026'da paylastigi Air Arabia ekranindan islenmistir. Asagidaki bolgesel fiyat notlari 19 Haziran 2026 canli arama notudur; linkleri satin almadan once 2 yetiskin + 1 infant olarak yeniden ac.</p>
+          <div class="ticket-summary" id="confirmed-ticket"></div>
+          <div class="flight-grid" id="flight-list"></div>
+        </div>
+
+        <div data-panel="booking" hidden>
+          <div class="priority-list" id="booking-list"></div>
+        </div>
+      </section>
+
+      <section class="panel">
+        <div class="panel-header">
+          <div>
+            <span class="eyebrow">Dogrulama</span>
+            <h2>Kaynaklar</h2>
+          </div>
+        </div>
+        <div class="source-grid" id="sources"></div>
+      </section>
+    </main>
+
+    <div data-component="footer"></div>
+    <script src="scripts/component-loader.js"></script>
+    <script src="scripts/trip-plan.js"></script>
+  </body>
+</html>

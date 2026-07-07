@@ -1,0 +1,9 @@
+2026-06-18 tarihinde kullanicinin aylik 2.000-2.500 USD butce ve bebekle 1 gezi + 1 mola temposu geri bildirimi islenerek rota revize edildi.
+
+Ana degisiklikler:
+- Durak sayisi 13'ten 6 ana bloga indirildi.
+- Chiang Mai ve Da Nang 14 gecelik Airbnb/uzun us olarak planlandi.
+- Koh Samui/Phangan 12 gece uzun sahil blogu yapildi; pahaliysa Cha-Am alternatifi not edildi.
+- Bali 10 gece Sanur tek us olarak kisildi.
+- Butce paneli aylik 2.000-2.500 USD ve toplam temel hedef 4.000-5.000 USD mantigina cekildi.
+- Rezervasyon oncelikleri Airbnb, Bali tavan karari ve 1 gezi + 1 mola ritmine gore guncellendi.

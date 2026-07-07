@@ -1,0 +1,1 @@
+guncelle.md, projeyi sonraki calistirmalarda kaldigi yerden guncellemek icin talimat dosyasidir. Ilk kontrol listesi, yapilacak is, state dosyasi, saat kurali, beklenen cikti ve log dogrulama bolumlerini icerir.

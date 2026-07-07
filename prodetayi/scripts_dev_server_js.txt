@@ -1,0 +1,1 @@
+scripts/dev-server.js, public klasorunu 127.0.0.1 uzerinden servis eden kucuk Node.js statik sunucusudur. Component loader fetch kullandigi icin paneli file:// yerine HTTP uzerinden acmak icin kullanilir.

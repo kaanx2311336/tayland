@@ -1,0 +1,12 @@
+2026-06-18 tarihinde Tayland, Vietnam ve Bali aile rotasi uygulanabilir bir statik kontrol paneline donusturuldu.
+
+Eklenen ana ciktilar:
+- public/index.html: rota, butce, evrak ve rezervasyon paneli
+- public/scripts/trip-plan.js: rota verisi, checklist ve sekme/filtre davranislari
+- public/styles/style.css: koyu tema, responsive panel tasarimi
+- public/vision.html: canli gelecek haritasi
+- public/styles/vision.css: vision sayfasi stilleri
+- public/components/header.html ve footer.html: ortak component sistemi
+- scripts/dev-server.js: paneli yerel HTTP sunucusunda acmak icin yardimci script
+
+Prodetayi ozetleri yeni dosyalar icin guncellendi.

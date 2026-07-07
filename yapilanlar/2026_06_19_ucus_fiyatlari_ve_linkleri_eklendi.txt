@@ -1,0 +1,9 @@
+2026-06-19 tarihinde kullanicinin istegiyle rota paneline ucus fiyatlari ve arama linkleri eklendi.
+
+Eklenenler:
+- Ucuslar sekmesi public/index.html icine eklendi.
+- public/scripts/trip-plan.js dosyasina flightDeals verisi, USD/TL aile tahmini ve renderFlights fonksiyonu eklendi.
+- BKK-HKT, HKT-USM, USM-CNX, URT-CNX, CNX-DAD, DAD-DPS ve DPS-BKK hatlari icin fiyat notlari ve linkler eklendi.
+- Samui -> Chiang Mai icin pahali direkt USM-CNX yerine URT-CNX butce alternatifi vurgulandi.
+- public/styles/style.css dosyasina ucus karti stilleri eklendi.
+- prodetayi/ucus_fiyat_kontrolu.txt kaydi olusturuldu.

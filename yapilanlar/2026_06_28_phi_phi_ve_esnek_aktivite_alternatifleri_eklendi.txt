@@ -1,0 +1,8 @@
+2026-06-28 tarihinde kullanicinin Phi Phi ve benzeri guzel alternatifleri de gormek istemesi uzerine aktivite paneli genisletildi.
+
+Eklenenler:
+- Aktiviteler sekmesine "Guzel alternatifler ve degisim kurallari" bolumu eklendi.
+- Phi Phi Islands + Maya Bay + Pileh Lagoon 13 veya 17 Temmuz icin buyuk gun alternatifi olarak eklendi.
+- Phi Phi icin Maya Bay 1 Agustos-30 Eylul 2026 kapanis riski, Temmuz deniz durumu, park ucreti ve bebekle tekne tipi kontrol notu eklendi.
+- Racha/Coral Island, Phuket Old Town/Aquarium, Pig Island, Koh Tao/Nang Yuan, Bua Tong, Chiang Mai marketleri, Marble Mountains, Hoi An basket boat, Uluwatu ve Nusa alternatifleri eklendi.
+- Her alternatif icin enerji seviyesi, tahmini maliyet, bebek uygunlugu ve hangi aktiviteyle degistirilmesi gerektigi yazildi.

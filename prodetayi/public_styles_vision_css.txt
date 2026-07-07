@@ -1,0 +1,1 @@
+public/styles/vision.css, vision sayfasina ozel hero, hedef kartlari ve olay cizgisi stillerini icerir. Ana renk ve panel degiskenlerini public/styles/style.css dosyasindan kullanir.

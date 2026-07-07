@@ -1,0 +1,10 @@
+2026-06-29 tarihinde kullanicinin paylastigi Air Arabia booking ekranindaki ana bilet bilgileri panele eklendi.
+
+Eklenenler:
+- PNR 685PGF bilgisi Ucuslar sekmesinde ana bilet karti olarak gosterildi.
+- IST -> SHJ G9322 07 Temmuz 2026 14:10
+- SHJ -> BKK G9821 07 Temmuz 2026 22:15
+- BKK -> SHJ G9822 04 Eylul 2026 08:55
+- SHJ -> IST G9287 04 Eylul 2026 13:20
+- Ekranda varis saatleri gorunmedigi icin tahmini varis saati yazilmadi; Booking Details/PDF bilet kontrolu checklist'e eklendi.
+- public/styles/style.css dosyasina ana bilet karti stilleri eklendi.

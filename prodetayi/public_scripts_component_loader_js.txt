@@ -1,0 +1,1 @@
+public/scripts/component-loader.js, `data-component` isaretli alanlara `public/components/` altindaki HTML parcaciklarini fetch ile yukler. Aktif sayfa nav linkini body `data-page` degerine gore isaretler.

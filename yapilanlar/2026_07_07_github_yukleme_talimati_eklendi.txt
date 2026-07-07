@@ -1,0 +1,12 @@
+2026-07-07 tarihinde GitHub yukleme akisi icin `gityukler.md` talimat dosyasi eklendi.
+
+Eklenenler:
+- `gityukler.md`: `@gityukler.md` cagrildiginda Git durum kontrolu, commit ve push akisini tarif eder.
+- `.gitignore`: hassas ve yerel dosyalarin GitHub'a yuklenmesini engeller.
+- `prodetayi/gityukler_md.txt`: yeni talimat dosyasinin proje hafizasi ozeti.
+- `prodetayi/gitignore.txt`: `.gitignore` dosyasinin proje hafizasi ozeti.
+
+Not:
+- GitHub reposu aile seyahat verileri nedeniyle varsayilan olarak private olusturulacak sekilde planlandi.
+- Force push veya kullanici degisikliklerini geri alma islemi bu talimat kapsaminda yasaklandi.
+

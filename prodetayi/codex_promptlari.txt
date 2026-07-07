@@ -1,0 +1,1 @@
+codex_promptlari klasoru, ileride prompt arsivi tutulmasi icin hazirlandi. Mevcut state dosyasi `codex_promptlari/prompt_arsivi_state.json` sifir arsivle baslatildi ve son bilinen is olarak aile rotasi paneli kaydedildi.

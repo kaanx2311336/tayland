@@ -1,0 +1,1 @@
+public/components/footer.html, rota varsayimini ve vize/kaynak bilgilerinin seyahatten once tekrar kontrol edilmesi gerektigini hatirlatan ortak alt bilgidir.

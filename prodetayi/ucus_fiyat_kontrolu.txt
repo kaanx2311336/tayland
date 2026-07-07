@@ -1,0 +1,1 @@
+Ucus fiyat kontrolu 2026-06-19 tarihinde yapildi. Fiyatlar canli arama sayfalarindan alinan kisi basi tek yon araliklaridir ve bagaj, koltuk, infant ucreti veya kur farki dahil olmayabilir. Panelde her hat icin aile tahmini USD ve yaklasik TL olarak gosterilir. USD/TRY hesaplamasinda 1 USD = 46.44 TL varsayimi kullanildi.

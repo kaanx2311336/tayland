@@ -1,0 +1,80 @@
+.vision-hero {
+  min-height: 300px;
+  display: grid;
+  align-content: end;
+  gap: 18px;
+  padding: 28px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background:
+    linear-gradient(180deg, rgba(16, 19, 24, 0.1), rgba(16, 19, 24, 0.9)),
+    url("https://images.unsplash.com/photo-1512100356356-de1b84283e18?auto=format&fit=crop&w=1800&q=80") center / cover;
+  box-shadow: var(--shadow);
+}
+
+.vision-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+  margin-top: 14px;
+}
+
+.vision-card {
+  padding: 18px;
+}
+
+.vision-card p,
+.vision-card li {
+  color: var(--soft);
+  line-height: 1.6;
+}
+
+.vision-card ul {
+  margin: 12px 0 0;
+  padding-left: 18px;
+}
+
+.event-track {
+  display: grid;
+  gap: 12px;
+  margin-top: 14px;
+}
+
+.event-card {
+  display: grid;
+  grid-template-columns: 180px 1fr;
+  gap: 18px;
+  padding: 16px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.event-card time {
+  color: var(--amber);
+  font-weight: 800;
+}
+
+.event-card h3 {
+  margin: 0 0 8px;
+}
+
+.event-card p {
+  margin: 0 0 8px;
+}
+
+.event-card strong {
+  color: var(--teal);
+}
+
+@media (max-width: 860px) {
+  .vision-grid,
+  .event-card {
+    grid-template-columns: 1fr;
+  }
+
+  .vision-hero {
+    min-height: 400px;
+    padding: 20px;
+  }
+}

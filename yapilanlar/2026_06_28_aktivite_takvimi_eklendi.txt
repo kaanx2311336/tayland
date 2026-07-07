@@ -1,0 +1,10 @@
+2026-06-28 tarihinde kullanicinin istegiyle rota paneline aktivite takvimi eklendi.
+
+Eklenenler:
+- public/index.html icine Aktiviteler sekmesi eklendi.
+- public/scripts/trip-plan.js icine activities veri listesi ve renderActivities fonksiyonu eklendi.
+- James Bond Adasi, YONA Beach Club, Ang Thong Marine Park, Fisherman's Village, Doi Suthep, Elephant Nature Park, Chiang Mai Night Safari, Hoi An lantern boat, Ba Na Hills, Hoi An Memories, Sanur/TCEC, Waterbom Bali, Ubud/Monkey Forest ve son Bangkok tampon aktiviteleri tarihleriyle yazildi.
+- YONA icin 19 aylik bebekle uygun olmadigi ve 4 yas alti kabul edilmedigi notu eklendi.
+- James Bond Adasi icin Temmuz yagmur sezonu/park kapanisi bilgisi nedeniyle operatorden yazili operasyon ve iade onayi alinmasi gerektigi notu eklendi.
+- public/styles/style.css icine aktivite karti stilleri eklendi.
+- prodetayi/aktivite_takvimi.txt kaydi olusturuldu.

@@ -1,0 +1,1 @@
+public/styles/style.css, ana tasarim sistemidir. Koyu tema, glassmorphism paneller, responsive gridler, rota timeline'i, aktivite kartlari, esnek alternatif aktivite kartlari, butce tablosu, checklist, ana bilet kartlari, ucus kartlari, kaynak gridleri ve print stillerini icerir. Inter fontu ve FontAwesome ikonlariyla calisir.

@@ -1,0 +1,2 @@
+gityukler.md, kullanici `@gityukler.md` yazdiginda GitHub yukleme akisini tarif eden kok talimat dosyasidir. Git deposu yoksa main branch ile baslatmayi, origin remote yoksa GitHub CLI ile varsayilan private repo olusturmayi, degisiklikleri commit edip pushlamayi ve gizli/yerel dosyalari .gitignore ile disarida tutmayi kurala baglar.
+
