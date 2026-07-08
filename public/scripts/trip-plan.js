@@ -4,7 +4,7 @@ const itinerary = [
     nights: 4,
     place: "Bangkok",
     country: "Tayland",
-    base: "BTS/MRT yakininda mutfakli apart veya uygun otel",
+    base: "Chillax Resort, Samsen Soi 2 / Khao San-Banglamphu cevresi",
     reason: "Ucustan sonra toparlanma, market, eczane, SIM ve bebek duzeni.",
     transfer: "BKK varis, sehir ici Grab/BTS; ilk gun program koyma.",
     baby: "1 gezi gunu + 1 mola gunu ritmine burada basla; yakin AVM, park ve eczane odakli kal.",
@@ -679,6 +679,108 @@ const bookingPriorities = [
   ["5", "Bebek saglik cantasi", "Bebek ilaclari, rehidrasyon, termometre, gunes/sinek urunleri ve doktor notu ilk rezervasyon kadar onemli."]
 ];
 
+const foodRecommendations = [
+  {
+    city: "Bangkok",
+    area: "Otel ici",
+    place: "Pranakhon Restaurant - Chillax Resort",
+    order: "Yorgun gun icin az baharatli fried rice, noodle veya basit Thai corba; bebek icin sade pilav/yumurta sor.",
+    reason: "Otelin kendi restorani gun boyu acik yemek servisi, Thai ve Western secenekleri ve Khao San'a yakinligiyle en kolay ilk gun opsiyonu.",
+    timing: "Jetlag, uyku bozuldugunda veya yagmurda",
+    baby: "En dusuk risk: klima, tuvalet ve odaya hizli donus var.",
+    links: [
+      ["Otel restorani", "https://www.chillaxresort.com/hotel-facilities/pranakhon-restaurant/"],
+      ["Chillax adres", "https://www.chillaxresort.com/location/"]
+    ]
+  },
+  {
+    city: "Bangkok",
+    area: "Khao San / Tanee Road",
+    place: "Areesaa Lote Dee",
+    order: "Khao mok gai; acsan yanina kuay teow gaeng veya beef soup.",
+    reason: "Khao San'a cok yakin, Muslim Thai usulu khao mok gai icin guclu lokal aday. Oglen veya erken aksam daha mantikli.",
+    timing: "Chillax'tan kisa yuruyus veya cok kisa Grab",
+    baby: "Basit ve hizli tabak sec; cok sicak saatte iceri otur.",
+    links: [
+      ["Yemek notu", "https://www.eatingthaifood.com/restaurants/khao-mok-gai-hidden-in-the-midst-of-khao-san-road/"]
+    ]
+  },
+  {
+    city: "Bangkok",
+    area: "Samsen",
+    place: "Krua Apsorn",
+    order: "Crab meat with yellow chilies, crab omelet ve lotus stem sour curry.",
+    reason: "Samsen hattinda klasik Thai aile yemegi. Paylasimli siparisle hem yetiskin hem bebek ritmine daha uygun.",
+    timing: "Oglen yogunlugundan biraz once veya sonra",
+    baby: "Rezervasyon/masa durumunu ara; baharat seviyesini bastan soyle.",
+    links: [
+      ["Krua Apsorn notu", "https://www.eatingthaifood.com/restaurants/krua-apsorn-restaurant-bangkok/"]
+    ]
+  },
+  {
+    city: "Bangkok",
+    area: "Pratu Phi / Old Town",
+    place: "Thipsamai",
+    order: "Superb Padthai: shrimp oil, fresh prawns ve egg wrap versiyonu.",
+    reason: "Resmi menude pad thai varyasyonlari net; rezervasyon almiyor, bu yuzden kuyruk riskini bastan kabul etmek gerekir.",
+    timing: "Kuyruk kisa gorunurse, aksam erken",
+    baby: "Sira uzunsa vazgec; bebekle kuyruk hedef degil.",
+    links: [
+      ["Thipsamai rezervasyon", "https://thipsamai.com/open-table-reservation/"],
+      ["Superb Padthai", "https://thipsamai.com/superb-padthai/"]
+    ]
+  },
+  {
+    city: "Bangkok",
+    area: "Tanao Road / Old Town",
+    place: "K. Panich",
+    order: "Mango sticky rice; otelde yemelik paket al.",
+    reason: "Grand Palace tarafina cikinca tatli molasi icin kolay. Paket almak bebekle masada beklemekten daha rahat.",
+    timing: "Tapinak/Old Town gunu donuste",
+    baby: "Sekerli tatliyi bebekle paylasma kararini size birak; en temiz kullanimi paket tatli molasi.",
+    links: [
+      ["TAT K. Panich", "https://www.tourismthailand.org/Restaurant/k-panich"],
+      ["Michelin K. Panich", "https://guide.michelin.com/us/en/bangkok-region/bangkok/restaurant/k-panich"]
+    ]
+  },
+  {
+    city: "Bangkok",
+    area: "ICONSIAM / SOOKSIAM",
+    place: "SOOKSIAM food hall",
+    order: "Pad Thai Aree, khao soi veya bolgeden bolgeye degisen Thai atistirmaliklari; tatli olarak mango sticky rice ara.",
+    reason: "Klimali, gezmesi kolay ve Tayland'in 77 ilinden yemek fikrini tek mekana topluyor. Bebekle ilk gunlerde sokak tezgahindan daha kontrollu.",
+    timing: "ICONSIAM + nehir gunu",
+    baby: "Bebek arabasi, tuvalet ve klima avantaji var; kalabalikta erken cik.",
+    links: [
+      ["SOOKSIAM", "https://campaign.iconsiam.com/wondrous-dining-zones/cn/sooksiam.html"]
+    ]
+  },
+  {
+    city: "Bangkok",
+    area: "Tha Maharaj / Nehir",
+    place: "Savoey",
+    order: "Stir-fried jumbo crabmeat in yellow curry sauce, deep-fried seabass veya pineapple fried rice.",
+    reason: "Nehir/Old Town gununde daha konforlu deniz urunu restorani. Resmi menude ailece paylasmaya uygun imza tabaklar var.",
+    timing: "Grand Palace veya nehir yuruyusu sonrasi",
+    baby: "Daha sakin masa ve mama sandalyesi sormak icin gitmeden ara.",
+    links: [
+      ["Savoey menu", "https://www.savoey.co.th/our-menus/"]
+    ]
+  },
+  {
+    city: "Bangkok",
+    area: "Chinatown / Yaowarat",
+    place: "Nai Mong Hoy Tod",
+    order: "Crispy oyster omelet; daha hafif istersen paylasimlik soyle.",
+    reason: "Chinatown yemegi icin net bir 'tek tabak hedefi'. Yagli ve agir oldugu icin bunu ana ogun degil, paylasimlik tadim gibi dusun.",
+    timing: "Chinatown'a ozellikle gidilecekse",
+    baby: "Sicak, yag ve kalabalik yuksek; bebek yorulduysa atla.",
+    links: [
+      ["Nai Mong Hoy Tod", "https://www.eatingthaifood.com/restaurants/hoy-tod-nai-mong-bangkok/"]
+    ]
+  }
+];
+
 const sources = [
   ["Thai Embassy Ankara", "https://ankara.thaiembassy.org/en/publicservice/60-day-visa-exemption-and-visa-on-arrival?menu=5fe9beb783a23d7cdc2637f2&page=5d7717d815e39c2f34004f93"],
   ["Thai Embassy Buenos Aires", "https://buenos-aires.thaiembassy.org/en/publicservice/general-information?menu=688b1b65ff9cd562bc6e0da2&page=6895b9255ab93755fe62dde3"],
@@ -692,7 +794,16 @@ const sources = [
   ["Koh Samui weather", "https://www.kuoni.co.uk/destinations/south-east-asia/thailand/koh-samui/best-time-to-visit/"],
   ["Phuket rainy season", "https://www.phuket.net/visit-phuket/about/info/climate/"],
   ["Phuket to Samui transfer", "https://www.ministryofvillas.com/how-to-get-from-phuket-to-koh-samui/"],
-  ["USD/TRY 19 Jun 2026", "https://wise.com/us/currency-converter/usd-to-try-rate/history"]
+  ["USD/TRY 19 Jun 2026", "https://wise.com/us/currency-converter/usd-to-try-rate/history"],
+  ["Chillax Resort location", "https://www.chillaxresort.com/location/"],
+  ["Chillax Pranakhon Restaurant", "https://www.chillaxresort.com/hotel-facilities/pranakhon-restaurant/"],
+  ["Areesaa Lote Dee khao mok gai", "https://www.eatingthaifood.com/restaurants/khao-mok-gai-hidden-in-the-midst-of-khao-san-road/"],
+  ["Krua Apsorn Samsen", "https://www.eatingthaifood.com/restaurants/krua-apsorn-restaurant-bangkok/"],
+  ["Thipsamai", "https://thipsamai.com/open-table-reservation/"],
+  ["K. Panich", "https://www.tourismthailand.org/Restaurant/k-panich"],
+  ["SOOKSIAM ICONSIAM", "https://campaign.iconsiam.com/wondrous-dining-zones/cn/sooksiam.html"],
+  ["Savoey menu", "https://www.savoey.co.th/our-menus/"],
+  ["Nai Mong Hoy Tod", "https://www.eatingthaifood.com/restaurants/hoy-tod-nai-mong-bangkok/"]
 ];
 
 const stateKey = "taylandAileRotasiChecklist";
@@ -908,6 +1019,29 @@ function renderBookings() {
   `).join("");
 }
 
+function renderFoodRecommendations() {
+  document.querySelector("#food-list").innerHTML = foodRecommendations.map((item) => `
+    <article class="food-card">
+      <div class="food-card-head">
+        <span>${item.city} / ${item.area}</span>
+        <strong>${item.place}</strong>
+        <small>${item.timing}</small>
+      </div>
+      <div class="food-order">
+        <span>Ne ye</span>
+        <strong>${item.order}</strong>
+      </div>
+      <p>${item.reason}</p>
+      <dl>
+        <div><dt>Bebek/lojistik</dt><dd>${item.baby}</dd></div>
+      </dl>
+      <div class="flight-links">
+        ${item.links.map(([label, href]) => `<a href="${href}" target="_blank" rel="noopener">${label}</a>`).join("")}
+      </div>
+    </article>
+  `).join("");
+}
+
 function renderSources() {
   document.querySelector("#sources").innerHTML = sources.map(([label, href]) => `
     <a href="${href}" target="_blank" rel="noopener">${label}</a>
@@ -943,6 +1077,7 @@ document.addEventListener("DOMContentLoaded", () => {
   renderFlights();
   renderChecklist();
   renderBookings();
+  renderFoodRecommendations();
   renderSources();
   bindTabs();
 });

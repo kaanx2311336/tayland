@@ -1,0 +1,12 @@
+2026-07-08 - Rezervasyon sekmesine Yemek bolumu eklendi
+
+Kapsam:
+- public/index.html icinde Rezervasyon panelinin altina "Yemek" basligi, Chillax Resort cevresi ve Bangkok tabaklari aciklamasi, food-list kapsayicisi eklendi.
+- public/scripts/trip-plan.js icinde ilk Bangkok konaklama ussu Chillax Resort / Samsen Soi 2 olarak guncellendi.
+- Bangkok icin foodRecommendations dizisi eklendi: Pranakhon Restaurant, Areesaa Lote Dee, Krua Apsorn, Thipsamai, K. Panich, SOOKSIAM, Savoey ve Nai Mong Hoy Tod kartlari olusturuldu.
+- Her yemek kartinda ne yenir, ne zaman gidilir, bebek/lojistik notu ve kaynak linkleri tutuldu.
+- public/styles/style.css icinde yemek kartlari icin mevcut koyu tema ve glassmorphism sistemine uyumlu grid/kart stilleri eklendi.
+
+Dogrulama:
+- node --check public/scripts/trip-plan.js calisti ve hata vermedi.
+- Yeni metinlerde ASCII disi karakter taramasi yapildi; aktif frontend dosyalarinda ASCII disi karakter kalmadi.

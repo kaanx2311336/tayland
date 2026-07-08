@@ -390,6 +390,12 @@ tbody th {
   gap: 12px;
 }
 
+.food-section {
+  margin-top: 22px;
+  padding-top: 18px;
+  border-top: 1px solid var(--line);
+}
+
 .panel-note {
   margin: 0 0 14px;
   color: var(--soft);
@@ -397,9 +403,14 @@ tbody th {
 }
 
 .flight-grid,
-.activity-grid {
+.activity-grid,
+.food-grid {
   display: grid;
   gap: 12px;
+}
+
+.food-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .ticket-summary {
@@ -408,7 +419,8 @@ tbody th {
 
 .ticket-card,
 .flight-card,
-.activity-card {
+.activity-card,
+.food-card {
   display: grid;
   gap: 14px;
   padding: 16px;
@@ -481,6 +493,7 @@ tbody th {
 
 .flight-card-head,
 .activity-card-head,
+.food-card-head,
 .flight-price {
   display: grid;
   gap: 4px;
@@ -488,6 +501,7 @@ tbody th {
 
 .flight-card-head span,
 .activity-card-head span,
+.food-card-head span,
 .flight-price span {
   color: var(--amber);
   font-size: 13px;
@@ -496,19 +510,43 @@ tbody th {
 
 .flight-card-head strong,
 .activity-card-head strong,
+.food-card-head strong,
 .flight-price strong {
   font-size: 22px;
 }
 
 .flight-card-head small,
-.activity-card-head small {
+.activity-card-head small,
+.food-card-head small {
   color: var(--muted);
 }
 
-.activity-card p {
+.activity-card p,
+.food-card p {
   margin: 0;
   color: var(--soft);
   line-height: 1.6;
+}
+
+.food-order {
+  display: grid;
+  gap: 5px;
+  padding: 12px;
+  border: 1px solid rgba(243, 201, 105, 0.28);
+  border-radius: 8px;
+  background: rgba(243, 201, 105, 0.08);
+}
+
+.food-order span {
+  color: var(--amber);
+  font-size: 12px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.food-order strong {
+  color: var(--text);
+  line-height: 1.45;
 }
 
 .activity-card-alt {
@@ -618,6 +656,7 @@ tbody th {
 
   .stats-grid,
   .checklist,
+  .food-grid,
   dl,
   .source-grid,
   .confirmed-flight-grid {
