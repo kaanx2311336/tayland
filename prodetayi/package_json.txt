@@ -1,0 +1,2 @@
+package.json, Tayland aile rotasi statik panelinin Node.js calistirma meta dosyasidir. `npm start` komutu `scripts/dev-server.js` sunucusunu baslatir, `npm run dev` yerel 4173 portunu kullanir ve Node 20+ gereksinimini belirtir. `private: true` sadece npm publish korumasidir.
+

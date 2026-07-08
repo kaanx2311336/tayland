@@ -1,0 +1,16 @@
+2026-07-08 tarihinde Coolify deployment hatasi giderildi.
+
+Sorun:
+- Coolify build logunda `failed to read dockerfile: open Dockerfile: no such file or directory` hatasi goruldu.
+
+Yapilanlar:
+- `Dockerfile` eklendi ve Node 22 Alpine tabanli statik servis image'i tanimlandi.
+- `package.json` eklendi; `npm start` ve `npm run dev` komutlari tanimlandi.
+- `.dockerignore` eklendi.
+- `scripts/dev-server.js`, container disindan erisim icin varsayilan `0.0.0.0` host'una bind edecek sekilde guncellendi.
+- Ilgili `prodetayi/` kayitlari olusturuldu veya guncellendi.
+
+Beklenen sonuc:
+- Coolify artik Dockerfile'i bulup image build edebilir.
+- Uygulama container icinde `PORT=3000` uzerinden servis edilir.
+

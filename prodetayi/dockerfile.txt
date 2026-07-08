@@ -1,0 +1,2 @@
+Dockerfile, Coolify deployment icin Node 22 Alpine tabanli production image tanimidir. `/app` calisma dizinine `package.json`, `public/` ve `scripts/` kopyalanir, `PORT=3000` ayarlanir, 3000 portu expose edilir ve uygulama `node scripts/dev-server.js` komutuyla baslatilir.
+

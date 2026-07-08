@@ -1,0 +1,2 @@
+.dockerignore, Docker build context icinden gereksiz veya hassas dosyalari disarida tutar. `.git`, Codex yerel ekleri, node_modules, loglar, ortam dosyalari ve gecici klasorler image'a kopyalanmaz.
+

@@ -4,6 +4,7 @@ const path = require("path");
 
 const root = path.resolve(__dirname, "..", "public");
 const port = Number(process.env.PORT || process.argv[2] || 4173);
+const host = process.env.HOST || "0.0.0.0";
 
 const contentTypes = {
   ".html": "text/html; charset=utf-8",
@@ -43,6 +44,6 @@ const server = http.createServer((request, response) => {
   });
 });
 
-server.listen(port, "127.0.0.1", () => {
-  console.log(`Tayland aile rotasi paneli: http://127.0.0.1:${port}/index.html`);
+server.listen(port, host, () => {
+  console.log(`Tayland aile rotasi paneli: http://${host}:${port}/index.html`);
 });
