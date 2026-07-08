@@ -12,7 +12,7 @@ Asistan once kok dizinde su yapilari kontrol eder:
 - `prodetayi/`
 - `yapilanlar/`
 
-Git deposu yoksa `git init -b main` ile baslatilir. `origin` remote'u yoksa GitHub CLI oturumu kontrol edilir. Mevcut repo yoksa aile rotasi verileri ozel kalacagi icin varsayilan olarak private GitHub reposu olusturulur.
+Git deposu yoksa `git init -b main` ile baslatilir. `origin` remote'u yoksa GitHub CLI oturumu kontrol edilir. Bu proje icin GitHub repo gorunurlugu public kabul edilir; mevcut repo yoksa public GitHub reposu olusturulur.
 
 ## Guvenlik Kurali
 Asistan push oncesi gizli veri riski icin hizli kontrol yapar. `.env`, anahtar dosyalari, yerel ekler, loglar ve bagimlilik klasorleri Git'e alinmaz. Force push, hard reset veya kullanici degisikliklerini geri alma islemi yapilmaz.
@@ -36,4 +36,3 @@ Islem sonunda asistan sunlari bildirir:
 - Olusturulan commit mesaji ve kisa hash
 - Push sonucu
 - Guncellenen `prodetayi` ve `yapilanlar` kayitlari
-

@@ -1,0 +1,11 @@
+2026-07-08 tarihinde kullanici istegiyle GitHub deposu public olacak sekilde guncellendi.
+
+Yapilanlar:
+- `gityukler.md` icindeki varsayilan repo gorunurlugu public olarak degistirildi.
+- `prodetayi/gityukler_md.txt` proje hafizasi kaydi public repo kararina gore guncellendi.
+- GitHub reposunun gorunurlugu private durumdan public duruma alinacak sekilde islem planlandi.
+
+Not:
+- Push oncesi hizli gizli veri taramasinda eslesme bulunmadi.
+- `.codex-remote-attachments/` ve hassas dosya desenleri `.gitignore` ile disarida tutulmaya devam ediyor.
+
